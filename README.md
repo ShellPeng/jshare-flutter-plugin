@@ -12,11 +12,11 @@ JIGUANG officially supported JShare SDK Flutter plugin (Android &amp; iOS). 极�
 dependencies:
   jshare_flutter_plugin:
     git:
-      url: git://github.com/jpush/jshare-flutter-plugin.git
+      url: https://github.com/ShellPeng/jshare-flutter-plugin.git
       ref: master
 ```
 
-+ pub 集成
++ 官方pub 集成，缺少universalLink
 
 ```
 dependencies:
