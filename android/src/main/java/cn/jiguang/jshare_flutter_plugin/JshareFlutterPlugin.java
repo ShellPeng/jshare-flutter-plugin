@@ -127,6 +127,7 @@ public class JshareFlutterPlugin implements MethodCallHandler {
     String appKey = call.argument("appKey");
     String weChatAppId = call.argument("weChatAppId");
     String weChatAppSecret = call.argument("weChatAppSecret");
+    String universalLink = call.argument("universalLink");
     String qqAppId = call.argument("qqAppId");
     String qqAppKey = call.argument("qqAppKey");
     String sinaWeiboAppKey = call.argument("sinaWeiboAppKey");

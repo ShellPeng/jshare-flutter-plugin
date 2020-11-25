@@ -120,6 +120,7 @@ class JShareConfig {
   String appKey; // 极光平台 AppKey
   String weChatAppId;
   String weChatAppSecret;
+  String universalLink;
   String qqAppId;
   String qqAppKey;
   String sinaWeiboAppKey;
@@ -143,6 +144,7 @@ class JShareConfig {
       "appKey": appKey ??= null,
       "weChatAppId": weChatAppId ??= null,
       "weChatAppSecret": weChatAppSecret ??= null,
+      "universalLink":universalLink??=null,
       "qqAppId": qqAppId ??= null,
       "qqAppKey": qqAppKey ??= null,
       "sinaWeiboAppKey": sinaWeiboAppKey ??= null,
